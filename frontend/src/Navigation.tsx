@@ -6,7 +6,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import conversationService from './api/services/conversationService';
 import userService from './api/services/userService';
 import Add from './assets/add.svg';
-import DocsGPT3 from './assets/cute_docsgpt3.svg';
+import DocsGPT3 from './assets/logo.png';
 import Discord from './assets/discord.svg';
 import Expand from './assets/expand.svg';
 import Github from './assets/github.svg';
@@ -238,7 +238,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
               </button>
             )}
             <div className="text-[#949494] font-medium text-[20px]">
-              DocsGPT
+              Ownly
             </div>
           </div>
         </div>
@@ -262,7 +262,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
           >
             <a href="/" className="flex gap-1.5">
               <img className="mb-2 h-10" src={DocsGPT3} alt="DocsGPT Logo" />
-              <p className="my-auto text-2xl font-semibold">DocsGPT</p>
+              <p className="my-auto text-2xl font-semibold">Ownly</p>
             </a>
           </div>
           <button
@@ -462,7 +462,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
               className="w-7 filter dark:invert"
             />
           </button>
-          <div className="text-[#949494] font-medium text-[20px]">DocsGPT</div>
+          <div className="text-[#949494] font-medium text-[20px]">Ownly</div>
         </div>
       </div>
       <DeleteConvModal

@@ -1,4 +1,4 @@
-import DocsGPT3 from './assets/cute_docsgpt3.svg';
+import DocsGPT3 from './assets/logo.png';
 import { useTranslation } from 'react-i18next';
 
 export default function Hero({
@@ -23,7 +23,7 @@ export default function Hero({
       {/* Header Section */}
       <div className="flex flex-col items-center justify-center flex-grow pt-8 md:pt-0">
         <div className="flex items-center mb-4">
-          <span className="text-4xl font-semibold">DocsGPT</span>
+          <span className="text-4xl font-semibold">Ownly</span>
           <img className="mb-1 inline w-14" src={DocsGPT3} alt="docsgpt" />
         </div>
       </div>
